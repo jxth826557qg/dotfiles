@@ -64,7 +64,7 @@ export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 
 # added by Anaconda 2.1.0 installer
-export PATH="/Users/guqiu/anaconda/bin:$PATH"
+export PATH=$HOME/anaconda/bin:$PATH
 
 # added by homebrew emacs
-export PATH=/usr/local/Cellar/emacs/24.4/bin:$PATH
+export PATH=/usr/local/Cellar/emacs/24.3/bin:$PATH
