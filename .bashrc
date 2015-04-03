@@ -175,7 +175,7 @@ shopt -s histappend
 set -o noclobber
 
 # 2.2) Listing, directories, and motion
-alias ll="ls -alrthG --color"
+alias ll="ls -alrthFG"
 alias la="ls -A"
 alias l="ls -CF"
 alias dir='ls --color=auto --format=vertical'
