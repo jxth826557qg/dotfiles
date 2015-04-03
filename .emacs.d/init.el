@@ -4,7 +4,7 @@
 ;; ---------------------
 ;; -- Global Settings --
 ;; ---------------------
-(add-to-list 'load-path "~/dotfiles/.emacs.d")
+(add-to-list 'load-path "~/dotfiles-mac/.emacs.d")
 (require 'package)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
