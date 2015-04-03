@@ -11,4 +11,6 @@ ln -sf dotfiles-mac/.bash_profile .
 ln -sf dotfiles-mac/.bashrc .
 ln -sf dotfiles-mac/.bashrc_custom .
 ln -sf dotfiles-mac/.emacs.d .
+ln -sf dotfiles-mac/git-completion.bash .
+ln -sf dotfiles-mac/git-prompt.sh .
 ```
