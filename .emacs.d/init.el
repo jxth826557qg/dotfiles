@@ -74,3 +74,9 @@
 (global-set-key "\M-d" 'delete-word)
 (global-set-key "\M-h" 'backward-delete-word)
 (global-set-key "\M-u" 'zap-to-char)
+
+;; python indent
+(add-hook 'python-mode-hook 'guess-style-guess-tabs-mode)
+(add-hook 'python-mode-hook (lambda ()
+			      (when indent-tabs-mode
+				(guess-style-guess-tab-width))))
