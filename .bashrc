@@ -204,6 +204,9 @@ export GREP_COLOR='1;31' # green for matches
 unset LANG
 export LC_ALL=POSIX
 
+# 2.6) vim backspace key
+stty erase '^?'
+
 ## ------------------------------
 ## -- 3) User-customized code  --
 ## ------------------------------
