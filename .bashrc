@@ -204,11 +204,11 @@ export GREP_COLOR='1;31' # green for matches
 unset LANG
 export LC_ALL=POSIX
 
-# 2.6) vim backspace key
+# 2.6) vims
 stty erase '^?'
 
 ## ------------------------------
-## -- 3) User-customized code  --
+## -- 3) User-customized code  --/
 ## ------------------------------
 
 ## Define any user-specific variables you want here.
